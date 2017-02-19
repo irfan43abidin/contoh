@@ -1,4 +1,6 @@
+
 @extends('templates.index')
-ini halaman utama
 @section('content')
-.@stop
+{{ $showcontent ['content1'] }}
+{{ $showcontent ['content1'] }}
+@stop
